@@ -1,6 +1,6 @@
 {
   "httpPort": 5488,
-  "trustUserCode": true,
+  "trustUserCode": false,
   "store": {
     "provider": "fs"
   },
@@ -30,44 +30,17 @@
       "enabled": false
     },
     "sample-template": {
-      "createSamples": true
+      "createSamples": false
     }
   },
   "extensionsList": [
-    "assets",
-    "authentication",
-    "authorization",
     "base",
     "browser-client",
-    "child-templates",
     "chrome-pdf",
-    "cli",
-    "components",
-    "data",
-    "docx",
-    "express",
-    "freeze",
-    "fs-store",
     "handlebars",
-    "html-to-xlsx",
     "import-export",
     "jsrender",
-    "licensing",
-    "localization",
     "npm",
-    "pdf-utils",
-    "pptx",
-    "public-templates",
-    "reports",
-    "sample-template",
-    "scheduling",
-    "scripts",
-    "static-pdf",
-    "studio",
-    "studio-theme-dark",
-    "tags",
-    "text",
-    "version-control",
-    "xlsx"
+    "pdf-utils"
   ]
 }
